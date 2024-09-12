@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    margin: auto;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.before{
+    width:350px;
+    height:100px;
+    background-color: blue;
+    color: darkblue;
+    display: flex;;
+     justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.element{
+    width: 450px;
+    height: 150px;
+    background-color: greenyellow;
+    color: #00000069;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.after{
+    width: 350px;
+    height: 100px;
+    background-color: red;
+    color: #00000069;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
